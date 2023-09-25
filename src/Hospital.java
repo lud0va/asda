@@ -84,7 +84,7 @@ Trabajadores trab[];
          System.out.println("El total es "+total);
      }
      public  void ordenar(){
-        Trabajadores cont;
+
         Arrays.sort(trab);
          for (int i = 0; i < trab.length-1; i++) {
              if (trab[i].getNombre().charAt(1)>trab[i+1].getNombre().charAt(1)){
